@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="V2_BackpackerChallenge" />
+	<DisplayName value="V2 Backpacker Challenge" />
+	<Description value="Allows crafting from only the backpack/Backpacker Workbench and campfire recipes." />
+	<Author value="arramus" />
+	<Version value="2.0.0.0" />
+	<Website value="https://discord.gg/PFMY8rqQVs" />
+</xml>
