@@ -1,0 +1,157 @@
+<BackpackerChallenge>
+
+<!-- Overview: 
+Section 1. Making the maximal skill level consistent with recipes available under the Backpacker Challenge.
+
+Section 2. Removing from the Crafting Skills panel the items and item tiers that cannot be crafted.
+
+Section 3. Updating the bonus loot chance for skill magazines to the  max skill level defined in Section 1. The loot chance is different before and after reaching the skill maximal level. -->
+
+
+<!-- Section 1. In this section we reduce the maximal level for crafting skill progression. This stops notifications about unlocking unavailable recipes. Once the new max level is reached, relevant skill magazines show as "read". Setting the max skill level to "1" makes all the corresponding skill magazines appear as "read". -->
+
+<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingHarvestingTools']" name="max_level">25</setattribute>
+	
+<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingRepairTools']" name="max_level">25</setattribute>
+
+<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingSalvageTools']" name="max_level">25</setattribute>
+
+<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingRepairTools']" name="max_level">25</setattribute>
+
+<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingKnuckles']" name="max_level">35</setattribute>
+
+<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingBlades']" name="max_level">35</setattribute>
+
+<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingClubs']" name="max_level">35</setattribute>
+
+<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingSledgehammers']" name="max_level">35</setattribute>
+
+<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingBows']" name="max_level">20</setattribute>
+
+<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingSpears']" name="max_level">35</setattribute>
+
+<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingHandguns']" name="max_level">10</setattribute>
+
+<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingShotguns']" name="max_level">10</setattribute>
+
+<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingRifles']" name="max_level">10</setattribute>
+
+<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingMachineGuns']" name="max_level">10</setattribute>
+
+<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']" name="max_level">1</setattribute>
+
+<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingRobotics']" name="max_level">10</setattribute>
+
+<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingArmor']" name="max_level">10</setattribute>
+
+<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']" name="max_level">1</setattribute>
+
+<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingTraps']" name="max_level">1</setattribute>
+
+<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']" name="max_level">10</setattribute>
+
+<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingVehicles']" name="max_level">5</setattribute>
+
+
+<!-- Section 2. In this section we remove the items and item tiers that cannot be crafted from the Crafting Skills panel. -->
+
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingHarvestingTools']/display_entry[@name_key='harvestToolsSteel' or @name_key='harvestToolsMechanical']" />
+
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingRepairTools']/display_entry[@item='meleeToolRepairT3Nailgun']" />
+
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingSalvageTools']/display_entry[@item='meleeToolSalvageT2Ratchet' or @item='meleeToolSalvageT3ImpactDriver']" />
+
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingKnuckles']/display_entry[@item='meleeWpnKnucklesT3SteelKnuckles']" />
+
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingBlades']/display_entry[@item='meleeWpnBladeT3Machete']" />
+
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingClubs']/display_entry[@item='meleeWpnClubT3SteelClub']" />
+
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingSledgehammers']/display_entry[@item='meleeWpnSledgeT3SteelSledgehammer']" />
+
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingBows']/display_entry[@item='gunBowT1IronCrossbow' or @item='gunBowT3CompoundBow' or @item='gunBowT3CompoundCrossbow']" />
+
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingSpears']/display_entry[@item='meleeWpnSpearT3SteelSpear']" />
+
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingHandguns']/display_entry[@item='gunHandgunT1Pistol' or @item='gunHandgunT2Magnum44' or @item='gunHandgunT3SMG5' or @item='gunHandgunT3DesertVulture']" />
+
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingShotguns']/display_entry[@item='gunShotgunT1DoubleBarrel' or @item='gunShotgunT2PumpShotgun' or @item='gunShotgunT3AutoShotgun']" />
+
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingRifles']/display_entry[@item='gunRifleT1HuntingRifle' or @item='gunRifleT2LeverActionRifle' or @item='gunRifleT3SniperRifle']" />
+
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingMachineGuns']/display_entry[@item='gunMGT1AK47' or @item='gunMGT2TacticalAR' or @item='gunMGT3M60']" />
+
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/display_entry[@name_key='explosivesT1-1,explosivesT1-2,explosivesT1-3' or @name_key='explosivesT2-1,explosivesT2-2,explosivesT2-3' or @name_key='explosivesT3-1,explosivesT3-2,explosivesT3-3' or @name_key='explosivesT4' or @name_key='explosivesT5']"/>
+
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingRobotics']/display_entry[@item='gunBotT1JunkSledge' or @item='meleeWpnBatonT2StunBaton' or @item='gunBotT2JunkTurret' or @item='gunBotT3JunkDrone']" />
+
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingArmor']/display_entry[@name_key='armorT2' or @name_key='armorT3' or @name_key='armorT4']" />
+
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/display_entry/unlock_entry[@item='drugSteroids']" />
+
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/display_entry[@name_key='electricianT1' or @name_key='electricianT2' or @name_key='electricianT3' or @name_key='electricianT4']" />
+
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingTraps']/display_entry[@name_key='trapsT1' or @name_key='trapsT2' or @name_key='trapsT3']" />
+
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry/unlock_entry[@item='forge' or @item='resourceLockPick' or @item='toolBellows' or @item='toolAnvil']" />
+
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[@name_key='workstationsT3-1' or @name_key='workstationsT4' or @name_key='workstationsT5']" />
+
+<set xpath="/progression/crafting_skills/crafting_skill[@name='craftingVehicles']/display_entry[@name_key='vehiclesT1']">
+<unlock_entry item="vehicleWheels" unlock_tier="1"/>
+</set>
+
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingVehicles']/display_entry[@name_key='vehiclesT2' or @name_key='vehiclesT3' or @name_key='vehiclesT4' or @name_key='vehiclesT5']" />
+
+
+<!-- Section 3. In this section we are updating the bonus loot chance for skill magazines to the max skill level defined in Section 1. The loot chance is different before and after reaching the maximal skill level, so the max level value has to be updated twice. -->
+
+<setattribute xpath="/progression/perks/perk[@name='perkDeadEye']/effect_group/passive_effect/requirement[@progression_name='craftingRifles']" name="value">10</setattribute>
+
+<setattribute xpath="/progression/perks/perk[@name='perkDemolitionsExpert']/effect_group/passive_effect/requirement[@progression_name='craftingExplosives']" name="value">1</setattribute>
+
+<setattribute xpath="/progression/perks/perk[@name='perkJavelinMaster']/effect_group/passive_effect/requirement[@progression_name='craftingSpears']" name="value">35</setattribute>
+
+<setattribute xpath="/progression/perks/perk[@name='perkSalvageOperations']/effect_group/passive_effect/requirement[@progression_name='craftingSalvageTools']" name="value">25</setattribute>
+
+<setattribute xpath="/progression/perks/perk[@name='perkBoomstick']/effect_group/passive_effect/requirement[@progression_name='craftingShotguns']" name="value">10</setattribute>
+
+<setattribute xpath="/progression/perks/perk[@name='perkPummelPete']/effect_group/passive_effect/requirement[@progression_name='craftingClubs']" name="value">35</setattribute>
+
+<setattribute xpath="/progression/perks/perk[@name='perkSkullCrusher']/effect_group/passive_effect/requirement[@progression_name='craftingSledgehammers']" name="value">35</setattribute>
+
+<setattribute xpath="/progression/perks/perk[@name='perkMiner69r']/effect_group/passive_effect/requirement[@progression_name='craftingHarvestingTools']" name="value">25</setattribute>
+
+<setattribute xpath="/progression/perks/perk[@name='perkBrawler']/effect_group/passive_effect/requirement[@progression_name='craftingKnuckles']" name="value">35</setattribute>
+
+<setattribute xpath="/progression/perks/perk[@name='perkMachineGunner']/effect_group/passive_effect/requirement[@progression_name='craftingMachineGuns']" name="value">10</setattribute>
+
+<setattribute xpath="/progression/perks/perk[@name='perkArchery']/effect_group/passive_effect/requirement[@progression_name='craftingBows']" name="value">20</setattribute>
+
+<setattribute xpath="/progression/perks/perk[@name='perkGunslinger']/effect_group/passive_effect/requirement[@progression_name='craftingHandguns']" name="value">10</setattribute>
+
+<setattribute xpath="/progression/perks/perk[@name='perkDeepCuts']/effect_group/passive_effect/requirement[@progression_name='craftingBlades']" name="value">35</setattribute>
+
+<setattribute xpath="/progression/perks/perk[@name='perkElectrocutioner']/effect_group/passive_effect/requirement[@progression_name='craftingRobotics']" name="value">10</setattribute>
+
+<setattribute xpath="/progression/perks/perk[@name='perkTurrets']/effect_group/passive_effect/requirement[@progression_name='craftingRobotics']" name="value">10</setattribute>
+
+<setattribute xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect/requirement[@progression_name='craftingWorkstations']" name="value">10</setattribute>
+
+<setattribute xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect/requirement[@progression_name='craftingRepairTools']" name="value">25</setattribute>
+
+<setattribute xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect/requirement[@progression_name='craftingElectrician']" name="value">1</setattribute>
+
+<setattribute xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect/requirement[@progression_name='craftingTraps']" name="value">1</setattribute>
+
+<setattribute xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect/requirement[@progression_name='craftingVehicles']" name="value">5</setattribute>
+
+<setattribute xpath="/progression/perks/perk[@name='perkLightArmor']/effect_group/passive_effect/requirement[@progression_name='craftingArmor']" name="value">10</setattribute>
+
+<setattribute xpath="/progression/perks/perk[@name='perkMediumArmor']/effect_group/passive_effect/requirement[@progression_name='craftingArmor']" name="value">10</setattribute>
+
+<setattribute xpath="/progression/perks/perk[@name='perkHeavyArmor']/effect_group/passive_effect/requirement[@progression_name='craftingArmor']" name="value">10</setattribute>
+
+<setattribute xpath="/progression/perks/perk[@name='perkLockPicking']/effect_group/passive_effect/requirement[@progression_name='craftingWorkstations']" name="value">10</setattribute>
+
+</BackpackerChallenge>
