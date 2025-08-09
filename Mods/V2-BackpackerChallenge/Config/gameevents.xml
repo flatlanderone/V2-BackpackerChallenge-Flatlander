@@ -7,6 +7,349 @@
 			<property name="phase" value="3" />
 			<property name="quest" value="quest_whiteRiverCitizen0" />
 		</action>
+
+<!-- *** Setting all mod schematics to "read." ***-->
+		<action class="ModifyCVar">
+			<property name="cvar" value="modArmorAdvancedMuffledConnectors" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modArmorBandolier" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modArmorCoolingMesh" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modArmorCustomizedFittings" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modArmorDoubleStoragePocket" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modArmorHelmetLight" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modArmorImpactBracing" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modArmorImprovedFittings" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modArmorInsulatedLiner" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modArmorMuffledConnectors" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modArmorPlatingBasic" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modArmorPlatingReinforced" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modArmorStoragePocket" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modArmorTripleStoragePocket" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modArmorWaterPurifier" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modFuelTankLarge" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modFuelTankSmall" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modGunBarrelExtender" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modGunBipod" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modGunBowArrowRest" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modGunBowPolymerString" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modGunChoke" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modGunCrippleEm" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modGunDuckbill" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modGunFlashlight" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modGunFoldingStock" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modGunForegrip" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modGunLaserSight" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modGunMagazineExtender" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modGunMeleeRadRemover" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modGunMeleeTheHunter" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modGunMuzzleBrake" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modGunReflexSight" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modGunRetractingStock" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modGunScopeLarge" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modGunScopeMedium" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modGunScopeSmall" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modGunSoundSuppressorSilencer" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modGunTriggerGroupAutomatic" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modGunTriggerGroupBurst3" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modGunTriggerGroupSemi" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modMeleeBunkerBuster" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modMeleeClubBarbedWire" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modMeleeClubBurningShaft" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modMeleeClubMetalSpikes" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modMeleeErgonomicGrip" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modMeleeFortifyingGrip" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modMeleeGraveDigger" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modMeleeIronBreaker" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modMeleeSerratedBlade" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modMeleeStructuralBrace" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modMeleeTemperedBlade" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modMeleeWeightedHead" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modMeleeWoodSplitter" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modRoboticDroneArmorPlatingMod" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modRoboticDroneCargoMod" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modRoboticDroneHeadlampMod" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modRoboticDroneMedicMod" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modRoboticDroneMoraleBoosterMod" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modShotgunSawedOffBarrel" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modVehicleExpandedSeat" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modVehicleFuelSaver" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modVehicleOffRoadHeadlights" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modVehicleReserveFuelTank" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>
+		<action class="ModifyCVar">
+			<property name="cvar" value="modVehicleSuperCharger" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>		
+		
+		<action class="ModifyCVar">
+			<property name="cvar" value="modArmorQuadStoragePocket" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>	
+		<action class="ModifyCVar">
+			<property name="cvar" value="modVehiclePlow" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>		
+		<action class="ModifyCVar">
+			<property name="cvar" value="modVehicleArmor" />
+			<property name="operation" value="set" />
+			<property name="value" value="1" />
+		</action>				
 	</append>
 
 </BackpackerChallenge>
