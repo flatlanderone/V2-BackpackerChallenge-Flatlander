@@ -1,10 +1,1 @@
-<BackpackerChallenge>
 
-	<!-- Workbench switched to Destroyed 'Player' Workbench -->
-	<set xpath="/blocks/block[@name='workbench']/property[@name='Model']/@value">@:Entities/Crafting/woodWorkBenchCollapsedEmptyPrefab.prefab</set>
-	
-	<append xpath="/blocks/block[@name='workbench']" >
-		<property name="CustomIcon" value="cntCollapsedWorkbenchEmpty"/>
-	</append>
-
-</BackpackerChallenge>
