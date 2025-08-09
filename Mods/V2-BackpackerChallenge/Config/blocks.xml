@@ -1,1 +1,8 @@
+<configs>
+
+	<remove xpath="/blocks/block/property[@name='UnlockedBy'][@value='craftingExplosives']" />
+	<remove xpath="/blocks/block/property[@name='UnlockedBy'][@value='craftingElectrician']" />
+	<remove xpath="/blocks/block/property[@name='UnlockedBy'][@value='craftingTraps']" />
+
+</configs>
 
