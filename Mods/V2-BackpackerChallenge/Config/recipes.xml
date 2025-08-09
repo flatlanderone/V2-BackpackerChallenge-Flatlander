@@ -3,10 +3,10 @@
 
 <!-- Removing all recipes that are unavailable under the Backpacker Challenge rules. See readme.txt for more details.  -->
 
-	<remove xpath="/recipes/recipe[@craft_area='forge']" />
+<!--	<remove xpath="/recipes/recipe[@craft_area='forge']" />
 	<remove xpath="/recipes/recipe[@craft_area='workbench']" />
 	<remove xpath="/recipes/recipe[@craft_area='cementMixer']" />
 	<remove xpath="/recipes/recipe[@craft_area='chemistryStation']" />
-	<remove xpath="/recipes/recipe[@name='forge']" />
+	<remove xpath="/recipes/recipe[@name='forge']" /> -->
 
 </BackpackerChallenge>
