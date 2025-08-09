@@ -81,7 +81,7 @@ Section 3. Updating the bonus loot chance for skill magazines to the  max skill 
 
 <remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingMachineGuns']/display_entry[@item='gunMGT1AK47' or @item='gunMGT2TacticalAR' or @item='gunMGT3M60']" />
 
-<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']/display_entry[@name_key='explosivesT1-1,explosivesT1-2,explosivesT1-3' or @name_key='explosivesT2-1,explosivesT2-2,explosivesT2-3' or @name_key='explosivesT3-1,explosivesT3-2,explosivesT3-3' or @name_key='explosivesT4' or @name_key='explosivesT5']"/>
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingExplosives']"/>
 
 <remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingRobotics']/display_entry[@item='gunBotT1JunkSledge' or @item='meleeWpnBatonT2StunBaton' or @item='gunBotT2JunkTurret' or @item='gunBotT3JunkDrone']" />
 
@@ -89,9 +89,9 @@ Section 3. Updating the bonus loot chance for skill magazines to the  max skill 
 
 <remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/display_entry/unlock_entry[@item='drugSteroids']" />
 
-<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/display_entry[@name_key='electricianT1' or @name_key='electricianT2' or @name_key='electricianT3' or @name_key='electricianT4']" />
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']" />
 
-<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingTraps']/display_entry[@name_key='trapsT1' or @name_key='trapsT2' or @name_key='trapsT3']" />
+<remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingTraps']" />
 
 <remove xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry/unlock_entry[@item='forge' or @item='resourceLockPick' or @item='toolBellows' or @item='toolAnvil']" />
 
