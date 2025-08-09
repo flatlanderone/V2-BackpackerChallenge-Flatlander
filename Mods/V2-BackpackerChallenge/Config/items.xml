@@ -1,1 +1,6 @@
+<configs>
 
+	<remove xpath="/items/item/property[@name='UnlockedBy'][@value='craftingExplosives']" />
+	<remove xpath="/items/item/property[@name='UnlockedBy'][@value='craftingElectrician']" />
+
+</configs>
