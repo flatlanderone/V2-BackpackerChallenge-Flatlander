@@ -1,9 +1,1 @@
-<BackpackerChallenge>
 
-	<!-- From Craft to Gather to assist with Challenge completion -->
-	<set xpath="/challenges/challenge[@name='craftForgedIron']/objective/@type">Gather</set>
-	<set xpath="/challenges/challenge[@name='craftPipeBomb']/objective/@type">Gather</set>
-	<set xpath="/challenges/challenge[@name='craftConcreteMix']/objective/@type">Gather</set>
-	<set xpath="/challenges/challenge[@name='craftGasCan']/objective/@type">Gather</set>
-
-</BackpackerChallenge>
